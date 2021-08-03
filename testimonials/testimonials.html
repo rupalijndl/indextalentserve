@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style media="screen">
+    body{
+                background-color:rgba(240,248,255,1);
+                color: #483D8B;
+            }
+        .line h2 {
+    width: 100%;
+    border-bottom: 3px solid #FCCF57;
+    line-height: 0.0em;
+    margin: 10px 0 20px;
+    margin-top: 50px;
+    font-weight: 900;
+    font-family: Poppins;
+    font-size: 42px;
+  }
+  .line h2 span {
+    color: #1d2f6f;
+    font-family: Poppins;
+    background-color: #f3f7ff;
+    margin-left: 100px;
+    padding: 0 10px;
+  }
+  .card1{
+    background-color:rgba(240,248,255,1); 
+              border-radius: 5%;
+              width: 523.31px;
+              height: 439px;
+        }
+  .image-flip:hover .backside, .image-flip.hover .backside {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      }
+
+      .image-flip:hover .frontside, .image-flip.hover .frontside {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+      }
+
+      .image-flip {
+      margin-bottom:1000px;
+      width: 154px;
+      height: 142.57px;
+      }
+
+      .mainflip {
+      -webkit-transition: 1s;
+      -webkit-transform-style: preserve-3d;
+      -ms-transition: 1s;
+      -moz-transition: 1s;
+      -moz-transform: perspective(1000px);
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      transition: 1s;
+      transform-style: preserve-3d;
+      position: relative;
+      }
+
+      .frontside, .backside {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transition: 1s;
+      -webkit-transform-style: preserve-3d;
+      -moz-transition: 1s;
+      -moz-transform-style: preserve-3d;
+      -o-transition: 1s;
+      -o-transform-style: preserve-3d;
+      -ms-transition: 1s;
+      -ms-transform-style: preserve-3d;
+      transition: 1s;
+      transform-style: preserve-3d;
+      position: absolute;
+      top: 0;
+      left: 0;
+      }
+
+      .frontside {
+      -webkit-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      z-index: 2;
+      }
+
+      .backside {
+      background: white;
+      -webkit-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);
+      -o-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+      }
+      .card-img-top
+      {
+        border-radius: 5%;
+        margin-left: 40px;
+        margin-right: 40px;
+        width:210px;
+        height:187px;
+      }
+</style>
+    <div class="line">
+              <h2><span>#Testimonials</span></h2>
+        </div>
+        <center style="padding-top:100px;">
+<div class="container" style="margin-left: 10px">
+  <div class="row">
+    <div class="col-sm">
+        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+      <div class="mainflip">
+      <div class="frontside">
+      <div class="card shadow p-1 mb-3" style="width:19rem; background-color: rgba(240,248,255,1);border-radius:5%;">
+        <div class="row" style="margin-bottom:70px;">  </div>
+      <img class="card-img-top img- fluid" src="testimonials1.png" alt="card image" style="margin-bottom:10px;">
+      <div class="card-body" style=" padding-top:10px; ">
+      <h4 class="card-title" style=" margin-bottom:10px;text-align:center;color: #1c2f6f; font-size:20px;font-family:poppins" >Sweety Jaiswal</h4>
+      <div class="row">  </div>
+      </div> </div> </div>
+      <div class="backside shadow p-1 mb-3" style="width:19rem; background-color: rgba(240,248,255,1);border-radius:5%;" >
+      <div class="card" style="border-radius:5%;background-color: rgba(240,248,255,1);border:none;">
+      <div class="row">  </div>
+      <!--This is a Header -->
+      <img src="testimonialsflip1.png" alt="" width="124" height="112.57" style="margin-left:auto; margin-right:auto;display:block;margin-top:5px;">
+      <div class="card-body">
+      <h6 class="card-title" style="text-align:center;color: #1c2f6f; font-size:20px;font-family:poppins">Sweety Jaiswal</h6>
+      <p class="card-text" style=" font-size:12px;color: #1c2f6f;text-align: left;font-family:poppins">Team TalentServe is really doing a great<br> job to help the students.
+         The learning is<br> made so simple.
+        I'm really honoured to be <br>a part of it. All the best and Thank You very <br>much.</p>
+        <div class="row" style="margin-top:60px;">  </div>
+      </div> </div> </div>
+      </div> </div>
+</div>
+
+
+
+
+
+
+ <div class="col-sm">
+
+      <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+      <div class="mainflip">
+      <div class="frontside">
+      <div class="card shadow p-1 mb-3" style="width:19rem; background-color: rgba(240,248,255,1);border-radius:5%;">
+        <div class="row" style="margin-bottom:70px;">  </div>
+      <img class="card-img-top img- fluid" src="testimonials2.png"  alt="card image" style="margin-bottom: 10px;">
+      <div class="card-body" style=" padding-top:10px; ">
+      <h4 class="card-title" style="margin-bottom:10px;text-align:center;color: #1c2f6f; font-size:20px;font-family: poppins" >Ankit Agarwal</h4>
+      <div class="row">  </div>
+      </div> </div> </div>
+      <div class="backside shadow p-1 mb-3" style="width:19rem; background-color: rgba(240,248,255,1);border-radius:5%;" >
+      <div class="card " style=" border-radius:5%;background-color: rgba(240,248,255,1);border:none;">
+      <div class="row">  </div>
+      <!--This is a Header -->
+      <img src="testimonialsflip2.png" alt="" width="124" height="112.57" style="margin-left:auto; margin-right:auto;display:block;margin-top: 5px;">
+
+      <div class="card-body">
+      <h6 class="card-title" style="text-align:center;color: #1c2f6f;font-size: 20px;font-family:poppins">Ankit Agarwal</h6>
+      <p class="card-text" style=" font-size:12px;color: #1c2f6f;text-align: left;font-family:poppins">I am writing to express my gratitude to the all the
+         team members of TalentServe who helped me successfully secure
+         the role of Technical Consultant. I also appreciate <br>their fast response, transparent <br>communication and co-ordination
+          in a<br> timely and efficient manner.
+      </p>
+        <div class="row">  </div>
+      </div> </div> </div>
+      </div> </div>
+    </div>
+    <div class="col-sm">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+            <div class="frontside">
+            <div class="card shadow p-1 mb-3" style="width:19rem; background-color: rgba(240,248,255,1);border-radius:5%;">
+              <div class="row" style="margin-bottom:70px;">  </div>
+            <img class="card-img-top img- fluid" src="testimonials3.png"  alt="card image" style="margin-bottom: 10px;">
+            <div class="card-body" style=" padding-top:10px; ">
+            <h4 class="card-title" style="margin-bottom:10px;text-align:center;color: #1c2f6f; font-size:20px;font-family: poppins" >Kunal Thakkar</h4>
+            <div class="row" >  </div>
+            </div> </div> </div>
+            <div class="backside shadow p-1 mb-3" style="width:19rem; background-color: rgba(240,248,255,1);border-radius:5%;" >
+            <div class="card " style=" border-radius:5%;background-color: rgba(240,248,255,1);border:none;">
+            <div class="row">  </div>
+            <!--This is a Header -->
+            <img src="testimonialsflip3.png" alt="" width="124" height="112.57" style="margin-left:auto; margin-right:auto;display:block;margin-top: 5px;">
+
+            <div class="card-body">
+            <h6 class="card-title" style="text-align:center;color: #1c2f6f;font-size: 20px;font-family: poppins">Kunal Thakkar</h6>
+            <p class="card-text" style=" font-size:12px;color: #1c2f6f;text-align: left;font-family: poppins">I have enrolled myself for Saarathii<br> Initiative through my college.
+               The <br>quality of the tutorial videos that they<br> have
+               made can help any student. The 1:1 <br>Mentoring session and the mock <br>interviews gave me a better idea to <br>prepare for my career.</p>
+              <div class="row" style="margin-bottom: 10px;">  </div>
+            </div> </div> </div>
+            </div> </div>
+
+    </div>
+  </div>
+</div>
+</center><br><br><br>
+</center>
+</head>
+</html>
