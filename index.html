@@ -61,6 +61,48 @@
         line-height: 33px;
     }
     
+ .container {
+     font-size:62.5%;
+      text-color: rgb(0,0,139);
+   width: 100%;
+   margin: 1rem auto;
+ }
+
+ .row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+ }
+
+ .card {
+   width: 20%;
+   margin-bottom: 2rem;
+   margin-right:1rem;
+   margin-left:1rem;
+   border-radius:1rem;
+
+ }
+
+ .card-headerpartner {
+   border:0rem;
+   text-align: center;
+   padding: .5rem .5rem;
+   background:white;
+   height:12rem;
+   object-fit: contain;
+   vertical-align:middle;
+
+ }
+
+ .card-bodypartner {
+     text-align: center;
+   font-size: 1rem;
+   position: absolute;
+  bottom: 0;
+  color:rgb(35,51,110);
+ }
+
     @media (max-width:1000px) {
         .dropdown-menu.show {
             border: 0;
@@ -87,9 +129,8 @@
             width: 75%;
         }
     }
-       body{
+        body{
         background-color:rgba(243,247,255,255);
-        font-family: 'Poppins', sans-serif;
     }
     .Co_founders_card1
     {
@@ -104,7 +145,6 @@
         margin-left:2%;
         margin-top:10%;
         display:inline-block;
-        
     }
     .Co_founders_cardImage
     {
@@ -115,14 +155,14 @@
     {
         color:#1d2f6f;
         font-weight:bold;
-        font-size:medium;
+        font-size:2em;
         height:7%;
         text-align:center;
     }
     .Co_founders_cardBody
     {
         color:#1d2f6f;
-        font-size:small;
+        font-size:1.5em;
         height:28%;
         text-align:center;
         padding-top:2.5%;
@@ -193,7 +233,22 @@
         {
             margin-top:4%;
         }
+                
+          .card {
+     width: 20%;
+   }
+   .card-bodypartner {
+     font-size: .8rem;
+ }
+ .card-headerpartner{
+   height:7rem;
+ }
+ #manymore{
+   font-size: 1.6rem !important;
+ }       
             }
+    
+    
     @media screen and (min-width:837px) and (max-width:1300px)
     {
         .Co_founders_card1{
@@ -233,6 +288,12 @@
         {
             margin-top:4.5%;
         }
+         .card {
+     width: 20%;
+   }
+   .card-bodypartner {
+     font-size: 1.1rem;
+  }
     }
     @media screen and (min-width:250px) and (max-width:759px)
     {
@@ -262,7 +323,6 @@
         }
         
     }
-
 </style>
 
 <!--NAVBAR START-->
@@ -301,10 +361,8 @@
     </header>
 <!--NAVBAR END-->
  <!-- Co-founders-->
- <!-- Co-founders-->
- <div style="margin-top:30px">
     <div style="color:rgba(243,247,255,255);height:80px;">hello</div>         
-          <div class="Co_founders_heading" style="font-weight:bolder;">#Co-Founders</div><span class="Co_founders_head1" style="font-size:large;font-weight:bolder;">Co-Founders</span>
+          <div class="Co_founders_heading">#Co-Founders</div><span class="Co_founders_head1">Co-Founders</span>
           <hr class="Co_founders_hr1">
           <div class="Co_founders_row2">
               <center>
@@ -312,10 +370,10 @@
         <div class="Co_founders_cardImage">
            <img class="Co_founders_img" src="Co_Founders_Images/nishchay.png" alt="nischay"/>
         </div>
-        <div class="Co_founders_cardTitle" style="font-size:large;">
+        <div class="Co_founders_cardTitle">
           Nischay J Katariya
         </div>
-        <div class="Co_founders_cardBody" style="font-size:medium;">
+        <div class="Co_founders_cardBody">
            Chief Business Officer
         </div>
         </div>
@@ -323,10 +381,10 @@
         <div class="Co_founders_cardImage">
            <img class="Co_founders_img" src="Co_Founders_Images/megha.png" alt="megha"/>
         </div>
-        <div class="Co_founders_cardTitle" style="font-size:large;">
+        <div class="Co_founders_cardTitle">
           Meghhaa Woraah
         </div>
-        <div class="Co_founders_cardBody" style="font-size:medium;">
+        <div class="Co_founders_cardBody">
             Group Chief Executive Officer
         </div>
     </div>
@@ -334,14 +392,13 @@
         <div class="Co_founders_cardImage">
            <img class="Co_founders_img" src="Co_Founders_Images/nithin.png" alt="nithin"/>
         </div>
-        <div class="Co_founders_cardTitle" style="font-size:large;">
+        <div class="Co_founders_cardTitle">
           Nithin Awathare
         </div>
-        <div class="Co_founders_cardBody" style="font-size:medium;">
+        <div class="Co_founders_cardBody">
             Chief Technology Officer
         </div>
     </div>
     </center>
-    </div>
     </div>
    <!--Co Founders End-->
