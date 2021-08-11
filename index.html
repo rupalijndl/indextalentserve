@@ -315,7 +315,7 @@ body{
           }
     <!--Our services-->
     
-    .services_a.btn
+     .services_a.btn
 {
   margin: 30px 10px;
   width: 125px;
@@ -325,7 +325,7 @@ body{
 .services_a.btn
 {
   background-color:#002e63;
-  color:#fff;
+  
 }
 .services_big-text
 {
@@ -338,12 +338,12 @@ body{
   min-height: 50vh;
    min-width: 100%;
 }
-.services_a:link { 
-  text-decoration: none; }
-
-.services_button-addon1 {
-  color: #ffc371;
+.a:link { 
+  text-decoration: none;
 }
+  
+
+
 
 .i {
   color: #ffc371;
@@ -375,34 +375,31 @@ body{
     margin-left: 100px;
     padding: 0 10px;
   }
-.form-control.shadow-0:focus {
+.services_form-control.shadow-0:focus {
   box-shadow: none;
 }
-.li1{
+.services_li1{
   color: white;
 }
 
-  .services_a:hover{
-    color:white;
-  }
+ 
   .image{
      border-radius: 20%;
   }
   .services_card1{
               background-color:rgba(240,248,255,1); 
               border-radius: 5%;
-           
-
-
+               width:380px;
+               float:left;
             }
             .services{
                display:inline-block;
+
             }
       .services_button1{
                background-color:rgb(35,51,110);
-               border: none;
                color: white;
-               padding:10px 20px 10px 10px;
+               padding:10px 10px 10px 10px;
                text-align:center;
                display: inline-block;
                font-size: 15px;
@@ -413,52 +410,20 @@ body{
             .services_button2{
                border:2px solid rgb(35,51,110);
                color: rgb(35,51,110);
-               padding:5px 10px 0px 15px;
+               padding:10px 10px 10px 10px;
                margin-top: 5px
                text-align:center;
-              text-decoration: none;
                font-size: 15px;
                border-radius: 20px;
             }
-    .services_line h2 {
-    width: 100%;
-    border-bottom: 3px solid #FCCF57;
-    line-height: 0.0em;
-    margin: 10px 0 20px;
-    margin-top: 50px;
-    font-weight: 900;
-    font-family: Poppins;
-    font-size: 40px;
 
-  }
-    services_form-control.shadow-0:focus {
-  box-shadow: none;
-}
-.services_li1{
-  color: white;
-}
- 
-
-  .services_line h2 span {
-    color: #1d2f6f;
-    font-family: Poppins;
-    background-color: #f3f7ff;
-    margin-left: 100px;
-    padding: 0 10px;
-  }
-
-      ,services_card, .services_card-img-top {
+      .services_card, .services_card-img-top {
       border-radius: 5%;
       }
-      .services_bn
-{
-  border: 2px solid #002e63;
- border-radius: 20px;
- margin: 60px 20px;
-  width: 190px;
-  padding:5px;
-  color: #fff;
-}
+
+.services_container::-webkit-scrollbar{
+        width: 0px;
+      }
 @media screen and (min-width:250px)
 and (max-width:1200px)
 {
@@ -466,8 +431,18 @@ and (max-width:1200px)
     overflow-x:auto;
     overflow-y:hidden;
     white-space:nowrap;
+    
+  }
+  .services_card1
+  {
+    float:left;
   }
 }
+
+.nounderline {
+  text-decoration: none !important
+}
+    <!--end our services>
 
 
     
@@ -900,29 +875,27 @@ a:link {
     </div>
 </div>
 
-<div class="services_container" style:margin-top:120px;><center>
+<div class="services_container justify-content-center"><center>
    <div class="services">
-              <div class="card services_card1 shadow p-2 mb-3" style="width: 380px;height: 480px;margin-top: 50px;">
-              <center><img src="sarathi.PNG" class= "img-fluid" alt="Responsive image"style=" width: 290px;height: 145.98px;" ></center>
+              <div class="card services_card1 shadow p-2 mb-3" style="height: 480px;margin-top: 120px;margin-left:60px;margin-right: 2px;">
+              <center><img src="sarathi.PNG" class= "img-fluid" alt="Responsive image" style="width: 290px;height: 145.98px;border-radius: 20%; margin-top: 20px;" ></center>
               <div class="card-service_body">
                  <h4 class="card-title" style="text-align:center;color: #1c2f6f; font-size:24px; font-family: poppins" ><strong>SAARATHI</strong></h4>
-              
-
              <pre class="card-text" style="font-size:15.4px;margin-top:20px;margin-bottom:8%;font-family:poppins;color: #002e63;">
  A Not for profit social initiative to create 
 1,00,000 job opportunities across India.
             </pre>
-              <a  class="services_button1" href="#" style="font-family:poppins; margin-top: 
+              <a  class="services_button1 nounderline" href="#" style="font-family:poppins; margin-top: 
               75px">Know more</a>
          </div>
            </div>
       </div>
+
       <div class="services">
-        <div class="card services_card1 shadow p-2 mb-3" style="width: 380px;height: 480px;margin-left: 50px;margin-top: 190px">
-              <center><img src="chanakya.PNG" class="img-fluid" alt="Responsive image" style="border-radius: 20%; margin-top:20px;"></center>
+        <div class="card services_card1 shadow p-2 mb-3" style="height: 480px;margin-left: 60px;margin-top: 120px">
+              <center><img src="chanakya.PNG" class="img-fluid" alt="Responsive image" style="border-radius: 20%; margin-top:20px;margin-right: 2px;"></center>
               <div class="card-service_body">
                  <h4 class="card-title" style="text-align:center;color: #1c2f6f; font-size:24px; font-family: poppins;margin-top: 23px;" ><strong>PHYGITAL LEARNING</strong></h4>
-                
                 <pre class="card-text" style="font-size:15.4px;margin-top:20px;margin-bottom:8%;font-family:poppins;color: #002e63;">
  Plan your digital through our Phygital
  way. We have created wide libraries
@@ -930,18 +903,16 @@ a:link {
  competitive exams and management
  courses.
              </pre>
-              <a class="services_button1" href="under.html" style="font-family:poppins;margin-top: 
-              25px">Know more</a>
+              <a class="services_button1 nounderline" href="under.html" style="font-family:poppins;margin-top: 
+              28px">Know more</a>
            </div>
           </div> 
       </div>
-  
  <div class="services">
-         <div class="card services_card1  shadow p-2 mb-3" style="width: 380px;height: 480px;margin-top: 120px;margin-left: 40px;">
+         <div class="card services_card1  shadow p-2 mb-3" style="height: 480px;margin-top: 120px;margin-left: 60px;">
               <center><img src="webinars.PNG" class="img-fluid" alt="Responsive image"style="border-radius: 20%; margin-top: 20px;width: 190px;height: 129px"></center>
               <div class="card-services_body">
-                <h4 class="card-title" style="text-align:center;color: #1c2f6f; font-size:24px; font-family: poppins;margin-top: -8px;" ><strong>WEBINARS</strong></h4>
-                 
+                <h4 class="card-title" style="text-align:center;color: #1c2f6f; font-size:24px; font-family: poppins;margin-top: -8px;" ><strong>WEBINARS</strong></h4>   
                  <pre class="card-text" style="font-size:15.4px;margin-top:20px;margin-bottom:8%;font-family:poppins;color: #002e63;">
 This world is moving fast pace and we all
  have intrersts in learning something
@@ -950,42 +921,35 @@ This world is moving fast pace and we all
  webinars related to latest technologies
  and other management courses.
         </pre>
-             
-              <a class="services_button1" href="under.html" style="font-family:poppins;margin-top: 14px;">Know more</a>
-              <a class="services_button2" href="under.html" style="font-family:poppins;color: #002e63; margin-top: 2px;">See topics</a>
+              <a class="services_button1 nounderline" href="under.html" style="font-family:poppins;margin-top: 10px;">Know more</a>
+              <a class="services_button2 nounderline" href="under.html" style="font-family:poppins;color: #002e63; margin-top: 2px;">See topics</a>
             </div>
           </div> 
         </div>
-    
-      
 
 <div class="services">
-        <div class="card services_card1 shadow p-2 mb-3" style="width: 380px;height: 480px;margin-left: 150px;margin-top: 120px;margin-left:40px;">
+        <div class="card services_card1 shadow p-2 mb-3" style="height: 480px;margin-top: 120px;margin-left:20px;">
               <center><img src="workshops.PNG" class="img-fluid" alt="Responsive image"style="border-radius: 20%;width: 260px;height: 105px;margin-top: 20px"></center>
-              <div class="card-body">
+              <div class="card-service_body">
                  <h4 class="card-title" style="text-align:center;color: #1c2f6f; font-size:24px; font-family: poppins;margin-top: 20px;" ><strong>WORKSHOPS</strong></h4>
-
-  <pre class="card-text" style="font-size:15.4px;margin-top:20px;margin-bottom:8%;font-family:poppins;color: #002e63;">
+  <pre class="card-text" style="font-size:14px;margin-top:20px;margin-bottom:8%;font-family:poppins;color: #002e63;">
 To be ready for the corporate industry
 a pragmatic approach has to be indicated
 TalentServe s DRISHYAM helps you embed
 these industrial practices by conducting
 hands on workshops.
         </pre>
-        <a class="services_button1" href="under.html" style="font-family:poppins;margin-top: 
-              20px">Know more</a> 
-                       
-              
+        <a class="services_button1 nounderline" href="under.html" style="font-family:poppins;margin-top: 
+              40px">Know more</a> 
             </div>
            </div>
     </div>
 
      <div class="services">
-        <div class="card services_card1 shadow p-2 mb-3" style="width: 380px;height: 480px;margin-right: 240px;margin-top: 120px;margin-left:250px;">
+        <div class="card services_card1 shadow p-2 mb-3" style="height: 480px;margin-top: 120px;margin-left:60px;">
               <center><img src="solo.PNG"class="img-fluid" alt="Responsive image"style="border-radius: 20%; margin-top:30px;width: 260px;height: 105px;">              <div class="card-services_body"style="width:100%">
                  <h4 class="card-title" style="text-align:center;color: #1c2f6f; font-size:24px; font-family: poppins; margin-top:10px;" ><strong>SOLOPRENEUR
 </strong></h4>
-                  
                   <pre class="card-text" style="overflow:hidden;background-color:rgba(243,247,255,255);border-color: rgba(243,247,255,255);font-size:15.4px;margin-top:20px;margin-bottom:8%;font-family:poppins;color: #002e63;">
 No investment business opportunity for
 the young professionals who are 
@@ -993,14 +957,11 @@ interested in starting their entrepreneurial
 journey in HR recruitment and earning 
 upto Rs 1 Lakh per month.
         </pre>
-              
-               
-              <a class="services_button1" href="under.html" style="font-family:poppins;margin-top: 
-              20px">Know more</a>
+              <a class="services_button1 nounderline" href="under.html" style="font-family:poppins;margin-top: 
+              30px">Know more</a>
             </div>
           </div> 
         </div>
-      
     </center>
       </div>
               
