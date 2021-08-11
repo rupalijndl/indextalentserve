@@ -595,17 +595,54 @@ a:link {
         width:210px;
         height:187px;
       }
-    .footer_li1{
-        color: white;
-        }
-    .footer_li2Hide {
-          color:white; 
+      .footer_li2Hide {
+            color:white;
           }
-           /* footer Portrait and Landscape */
-              @media only screen and (max-device-width : 767.98px){  
-                .footer_li2Hide { 
-                  display: none;}
+          @media (min-width: 768px) and (max-width: 1199.98px) { 
+                .footer_li1Hide{
+                    display:none;
+                }
+          }
+           @media only screen and (max-device-width : 992px){
+             .footer_img {
+                 width: 100%;
+                 padding-left:1rem;
+               }
+               .footer_align {
+                 width: 100%;
+                 padding-left:1rem;
+               }
+               .footer_imgs{
+                 height:2.5rem !important;
+               }
+               .footer_align1{
+                 width: 100%;
+                 padding-left:1rem;
+               }
+               .copyright_text{
+                 font-size:11px !important;
+               }
+           }
+
+          @media only screen and (max-device-width : 760px){
+            .footer_li2Hide {
+              display: none;
+            }
+            .footer_img {
+                width: 100% !important;
+                padding-left:3rem !important;
               }
+              .footer_align{
+                width: 100% !important;
+                padding-left:3rem !important;
+              }
+              .footer_align1{
+                padding-left:3rem !important;
+              }
+              .footer_align3{
+                padding-left:4rem !important;
+              }
+          }
     .horizontal_line1
     {
         font-size:150%;
@@ -1160,82 +1197,75 @@ upto Rs 1 Lakh per month.
       </div>
       </div>
             <!-- mobile end-->
-    
-        <!-- Footer -->
+         <!--Footer Start-->
     <div>
-        <footer
-                class="text-center text-lg-start text-white"
-                style="background-color: #060478;"
-                >
-          <!-- Grid container -->
-          <div class="container-fluid">
-            <!-- Section: Links -->
-            <section>
-              <!--Grid row-->
-              <div class="row py-4">
-                <!-- Grid column -->
-                <div class="col-xl-1">  </div>
-                <div class="col-md-3 col-lg-4 col-xl-4 mt-3 first_row">
-                        <img class="img"src="footer_pic.png" alt="">
-                        <ul class="list-inline mt-4">
-                            <li class="list-inline-item row-lg-2 row-md-4 row-xl-6"><a href="https://twitter.com/talentserve"target="_blank" target="_blank"
-                                title="twitter"><img src="Twitter_pic.png" width="50" class="image" alt=image-fluid></a></li>
-                            <li class="list-inline-item row-lg-2 row-md-4 row-xl-6"><a href="https://www.facebook.com/talentserve/" target="_blank" title="facebook">
-                                    <img src="FB_pic.png" width="50" class="image" alt=image-fluid></a></li>
-                            <li class="list-inline-item row-lg-2 row-md-4 row-xl-6"><a href="https://www.youtube.com/channel/UCGiDUX3MdPYO-GJFCjzr_cw" target="_blank" title="youtube">
-                            <img src="Youtube_pic.png" width="50" class="image" alt=image-fluid></a></li>
-                            <li class="list-inline-item row-lg-2 row-md-4 row-xl-6"><a href="https://www.instagram.com/talentserve/" target="_blank" title="instagram">
-                            <img src="Instagram_pic.png" width="50" class="image" alt=image-fluid></i></a></li>
-                            <li class="list-inline-item row-lg-2 row-md-4 row-xl-6" ><a href="https://www.linkedin.com/company/talentserve-india-pvt-ltd/"  target="_blank"
-                            title="linkdn"><img src="linked_in_pic.png" width="50" class="image" alt=image-fluid></a></li>
-                        </ul>
-                        <p class="font-italic "style="color: white; font-size:1 rem;">Copyright © 2020 TalentServe All rights reserved.<br>
-                                Read our Terms & Conditions, Privacy Policy.</p>
-                </div>
-                <!-- Grid column -->
-                
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-1 mt-3">
-                  <ul class="list-unstyled mb-0 footer_li1">
-                    <li class="mb-1 "><a href="" style="font-size:18px;text-decoration:none; color:white; font-weight:700;">Home</a></li>
-                    <li class="mb-1"><a href="" style="font-size:18px;text-decoration: none;color:white; font-weight:700;">Blogs</a></li>
-                    <li class="mb-1"><a href="" style="font-size:18px;text-decoration: none;color:white; font-weight:700;">Videos</a></li>
-                    <li class="mb-1"><a href="" style="font-size:18px;text-decoration: none;color:white; font-weight:700;">ContactUs</a></li>
-                  </ul>
-                </div>
-                <!-- Grid column -->
-     
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mt-3">
-                  <ul class="list-unstyled mb-0 footer_li1">
-                    <li class="mb-1"><a href="#" style="font-size:18px;text-decoration: none;color:white; font-weight:700; ">Candidate</a></li>
-                    <li class="mb-1"><a href="#" style="font-size:18px;text-decoration: none;color:white; font-weight:700;">Intern</a></li>
-                    <li class="mb-1"><a href="#" style="font-size:18px;text-decoration: none;color:white; font-weight:700;">Employee</a></li>
-                    <li class="mb-1"><a href="#" style="font-size:18px;text-decoration: none;color:white; font-weight:700;">College</a></li>
-                    <li class="mb-1"><a href="#" style="font-size:18px;text-decoration: none;color:white; font-weight:700;">Company</a></li>
-                  </ul>
-                </div>
-      
-                <!-- Grid column -->
+           <footer class="page-footer"style="background-color: #060478;">
+      <div>
+        <div class="container">
+       <div class="container mt-4">
+         <div class="row py-4">
 
-      
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-1 mt-3" >
-                    <ul class="footer_li2Hide">
-                        <li class="mb-1"style="color:orange;"><a href="#" style="font-size:1.2rem;text-decoration: none;color:white;">Saarathi</a></li>
-                        <li class="mb-1"style="color:orange;"><a href="#" style="font-size:1.2rem;text-decoration: none;color:white;">Aatamnirbhar</a></li>
-                        <li class="mb-1"style="color:orange;"><a href="#" style="font-size:1.2rem;text-decoration: none;color:white;">Drsihyam</a></li>
-                        <li class="mb-1"style="color:orange;"><a href="#" style="font-size:1.2rem;text-decoration: none;color:white;">Dishaa</a></li>
-                        <li class="mb-1"style="color:orange;"><a href="#" style="font-size:1.2rem;text-decoration: none;color:white;">Chanakya</a></li>
-                      </ul>
-                </div>
-                <!-- Grid column -->
-              </div>
-              <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
-        </footer>   
-             <!--footer-->
+          <div class="col-md-5  mx-0 mb-4">
+            <div class="footer_img order-sm-1 order-xs-1">
+            <img  src="footer_pic.png" alt="">
+          </div>
+           <div class="row">
+            <div class=" col-xs-6 mt-3 footer_align order-sm-2 order-xs-4">
+                <a href="https://www.facebook.com/talentserve/">
+                      <img src="FB_pic.png" class="mr-1 footer_imgs" alt="" style=" height:3rem;"></a>
+                <a href="https://twitter.com/talentserve">
+                      <img src="Twitter_pic.png" class="mr-1 footer_imgs" alt="" style=" height:3rem;"></a>
+                <a href="https://www.youtube.com/channel/UCGiDUX3MdPYO-GJFCjzr_cw">
+                      <img src="Youtube_pic.png" class="mr-1 footer_imgs" alt="" style="height:3rem;"></a>
+                <a href="https://www.instagram.com/talentserve/">
+                      <img src="Instagram_pic.png" class="mr-1 footer_imgs" alt="" style=" height:3rem;"></a>
+                <a href="https://www.linkedin.com/company/talentserve-india-pvt-ltd/">
+                     <img src="linked_in_pic.png" class="mr-1 footer_imgs" alt="" style="height:3rem;"></a>
+            </div>
+            <div class=" col-xs-6 mt-3 footer_align1 order-sm-3  order-xs-5">
+              <p class="font-italic copyright_text"style="color: white; font-size:16px;">Copyright © 2020 TalentServe All rights reserved.<br>
+                    Read our Terms & Conditions, Privacy Policy.</p>
+            </div>
+          </div>
+          </div>
+            
+          <div class="col-6 col-md-2 offset-lg-1 mx-0 mb-4 footer_align2 order-sm-4 order-xs-2" >
+            <ul class="list-unstyled">
+              <li class="my-2"><a href="#" style="color:white;">Home</a></li>
+              <li class="my-2"><a href="#" style="color:white;">Blogs</a></li>
+              <li class="my-2"><a href="#" style="color:white;">Videos</a></li>
+              <li class="my-2"><a href="#" style="color:white;">Contact Us</a></li>
+              <li class="my-2 footer_li1Hide"><a href='#' style="color:white;">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class=" col-6 col-md-2 mx-0  mb-4 footer_align3 order-sm-5  order-xs-3">
+            <ul class="list-unstyled">
+              <li class="my-2"><a href="#" style="color:white;">Candidate</a></li>
+              <li class="my-2"><a href="#" style="color:white;">Intern</a></li>
+              <li class="my-2"><a href="#" style="color:white;">Employee</a></li>
+              <li class="my-2"><a href="#" style="color:white;">College</a></li>
+              <li class="my-2"><a href="#" style="color:white;">Company</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3  mx-0 mb-4 footer_li2Hide order-sm-6 order-xs-5">
+            <ul>
+              <li class="my-2"style="color:orange;"><a href="#" style="color:white;">Sarathi</a></li>
+              <li class="my-2"style="color:orange;"><a href="#" style="color:white;">Aatamnirbhar</a></li>
+              <li class="my-2"style="color:orange;"><a href="#" style="color:white;">Drsihyam</a></li>
+              <li class="my-2"style="color:orange;"><a href="#" style="color:white;">Dishaa</a></li>
+              <li class="my-2"style="color:orange;"><a href="#" style="color:white;">Chanakya</a></li>
+            </ul>
+          </div>
+
+         </div>
+       </div>
+    </footer>
+   </div>
+               <!--Footer End-->
+
+        
     </body>
 </html>
 
