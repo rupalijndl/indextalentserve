@@ -509,33 +509,38 @@
     }
     
     .line h3 {
-          /* width: 100; */
-            border-bottom: 3px solid #FCCF57;
-            line-height: 0.0em;
+        /* width: 100; */
+        border-bottom: 3px solid #FCCF57;
+        line-height: 0.0em;
         /* margin: 0.625rem 0 1.25rem; */
-        margin-top:3.125rem;
+        margin-top: 3.125rem;
         font-weight: 900;
         font-family: Poppins;
         font-size: 2.625rem;
+    }
+    
+    .line h3 span {
+        color: #1d2f6f;
+        font-family: Poppins;
+        background-color: rgba(240, 248, 255, 1);
+        margin-left: 6.25rem;
+        /* padding: 0 0.625rem; */
+    }
+    
+    .p3 {
+        font-size: 1.75rem;
+    }
+    
+    .mobileHide {
+        display: inline;
+    }
+    /* Smartphone Portrait and Landscape */
+    
+    @media only screen and (min-device-width: 280px) and (max-device-width: 1024px) {
+        .mobileHide {
+            display: none;
         }
-        .line h3 span {
-             color: #1d2f6f;
-            font-family: Poppins;
-            background-color:rgba(240,248,255,1) ;
-            margin-left:6.25rem;
-            /* padding: 0 0.625rem; */
-        }
-        .p3{
-             font-size: 1.75rem;
-        }
-
-         
-
-           .mobileHide { display: inline;}
-   /* Smartphone Portrait and Landscape */
-          @media only screen and (min-device-width : 280px) and (max-device-width : 1024px) {  
-            .mobileHide { display: none;}
-          }
+    }
     
     .mobileHide {
         display: inline;
@@ -1572,20 +1577,20 @@ upto Rs 1 Lakh per month.
         <!--Co Founders End-->
 
         <!-- mobile -->
-         <div class="mobileHide">
-    <div class="line ">
-        <h3><span>#TalentserveApp</span></h3>
-      </div>
-      <div class="container">
-          <div class="d-flex flex-row ">
-            <div class="col-sm col-xs col-md col-lg-5 order-xs-2">
-                  <p class="p3" style="color:#F79824;width: 350px; font-weight: bold; margin-top:200px;padding-left:3.125rem;font-style: poppins;"> Coming Soon on Google Play and Apple Store</p>
-                  <br><br><br>
+        <div class="mobileHide">
+            <div class="line ">
+                <h3><span>#TalentserveApp</span></h3>
             </div>
-            <div class="col-sm col-xs col-md col-lg-5 order-xs-1" style="margin-top: 50px;margin-left: -50px;">  <img src="mobile.png" width="720px" height="410px"  alt=""> </div>
+            <div class="container">
+                <div class="d-flex flex-row ">
+                    <div class="col-sm col-xs col-md col-lg-5 order-xs-2">
+                        <p class="p3" style="color:#F79824;width: 350px; font-weight: bold; margin-top:200px;padding-left:3.125rem;font-style: poppins;"> Coming Soon on Google Play and Apple Store</p>
+                        <br><br><br>
+                    </div>
+                    <div class="col-sm col-xs col-md col-lg-5 order-xs-1" style="margin-top: 50px;margin-left: -50px;"> <img src="mobile.png" width="720px" height="410px" alt=""> </div>
+                </div>
+            </div>
         </div>
-      </div>
-      </div>
         <!-- mobile end-->
         <!--Footer Start-->
         <footer class="page-footer" style="background-color: #1D2F6F;">
