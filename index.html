@@ -35,7 +35,7 @@
 
 </head>
 <style>
-    html,
+        html,
     body {
         width: 100%;
         margin: 0px;
@@ -78,8 +78,8 @@
         }
         .navbar-collapse.collapse.show,
         .navbar-collapse.collapsing {
-            background-color: #F3F7FF;
-            !important box-shadow: 0px 4px 34px rgba(101, 101, 101, 0.15);
+            background-color: #F3F7FF !important;
+            box-shadow: 0px 4px 34px rgba(101, 101, 101, 0.15);
             border-radius: 10px;
             margin-top: 15px;
             z-index: 50;
@@ -196,8 +196,8 @@
     }
     
     <!--co-founders-->body {
-        <!--background-color: rgba(243, 247, 255, 255);
-        -->background-color: #F3F7FF;
+        /*background-color: rgba(243, 247, 255, 255);*/
+        background-color: #F3F7FF;
         font-family: 'Poppins', sans-serif;
     }
     
@@ -465,8 +465,8 @@
     }
     
     .services_body {
-        <!--background: #1D2F6F;
-        -->background-color: #F3F7FF;
+        /*background: #1D2F6F;*/
+        background-color: #F3F7FF;
         min-height: 50vh;
         min-width: 100%;
     }
@@ -541,7 +541,8 @@
         border: 2px solid rgb(35, 51, 110);
         color: rgb(35, 51, 110);
         padding: 10px 10px 10px 10px;
-        margin-top: 5px text-align: center;
+        margin-top: 5px;
+        text-align: center;
         font-size: 15px;
         border-radius: 20px;
     }
@@ -569,15 +570,16 @@
     .nounderline {
         text-decoration: none !important
     }
+    /* <!--end our services><!--Testimonials-->*/
     
-    <!--end our services><!--Testimonials-->body {
+    body {
         color: #483D8B;
         overflow-x: hidden;
     }
     
     .body {
-        <!--background: #1D2F6F;
-        -->background-color: #F3F7FF;
+        /*background: #1D2F6F;*/
+        background-color: #F3F7FF;
         min-height: 50vh;
         min-width: 100%;
     }
@@ -795,8 +797,9 @@
             font-weight: bolder;
         }
     }
+    /*<!--building-careers--> */
     
-    <!--building-careers-->@media (min-width: 992px) {
+    @media (min-width: 992px) {
         .Building-career-h1 {
             color: #000080;
             margin: 14% 3% auto 5%;
@@ -826,70 +829,67 @@
         .btn-letsstart {
             text-align: left;
         }
-    }
-    
-    @media (max-width: 992px) and (min-width: 650px) {
-        #letstart {
-            border-radius: 25px;
-            text-align: center;
-            margin: auto 2% auto 13%;
-            width: 20%;
-            font-size: 1.4em;
-            background-color: #151B54;
+        @media (max-width: 992px) and (min-width: 650px) {
+            #letstart {
+                border-radius: 25px;
+                text-align: center;
+                margin: auto 2% auto 13%;
+                width: 20%;
+                font-size: 1.4em;
+                background-color: #151B54;
+            }
+            .Building-career-h1 {
+                color: #000080;
+                /*10% 3% auto 5%*/
+                font-style: bold;
+                font-size: 3em;
+            }
+            .BCimg {
+                margin: 3% auto;
+                height: 400px;
+                width: 650px;
+            }
+            .Building-career-h2 {
+                color: #00008B;
+                margin-top: -5px;
+            }
+            .btn-letsstart {
+                margin: 3% auto;
+                text-align: center;
+            }
         }
-        .Building-career-h1 {
-            color: #000080;
-            /*10% 3% auto 5%*/
-            font-style: bold;
-            font-size: 3em;
+        @media (max-width: 649px) {
+            #letstart {
+                border-radius: 25px;
+                text-align: center;
+                margin: auto 2% auto 13%;
+                width: 60%;
+                font-size: 1.4em;
+                background-color: #151B54;
+            }
+            .Building-career-h1 {
+                color: #000080;
+                margin: auto;
+                /*10% 3% auto 5%*/
+                font-style: bold;
+                font-size: 1.5em;
+                text-align: center;
+            }
+            .BCimg {
+                margin: 3% auto;
+                height: 300px;
+                width: 450px;
+            }
+            .Building-career-h2 {
+                color: #00008B;
+                margin: auto;
+                text-align: center;
+            }
+            .btn-letsstart {
+                margin: 3% auto;
+                text-align: center;
+            }
         }
-        .BCimg {
-            margin: 3% auto;
-            height: 400px;
-            width: 650px;
-        }
-        .Building-career-h2 {
-            color: #00008B;
-            margin-top: -5px;
-        }
-        .btn-letsstart {
-            margin: 3% auto;
-            text-align: center;
-        }
-    }
-    
-    @media (max-width: 649px) {
-        #letstart {
-            border-radius: 25px;
-            text-align: center;
-            margin: auto 2% auto 13%;
-            width: 60%;
-            font-size: 1.4em;
-            background-color: #151B54;
-        }
-        .Building-career-h1 {
-            color: #000080;
-            margin: auto;
-            /*10% 3% auto 5%*/
-            font-style: bold;
-            font-size: 1.5em;
-            text-align: center;
-        }
-        .BCimg {
-            margin: 3% auto;
-            height: 300px;
-            width: 450px;
-        }
-        .Building-career-h2 {
-            color: #00008B;
-            margin: auto;
-            text-align: center;
-        }
-        .btn-letsstart {
-            margin: 3% auto;
-            text-align: center;
-        }
-    }
 </style>
 <script>
     $(document).ready(function() {
